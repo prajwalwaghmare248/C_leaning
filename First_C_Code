@@ -1,6 +1,11 @@
 #include<sdtio.h>
 int main()
 {
-printf("do it");
+int a;
+
+printf("enter value of a");
+scanf("%d",&a);
+
+printf("%d is values of a",a);
 return 0;
 }
